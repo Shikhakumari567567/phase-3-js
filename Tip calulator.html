@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="Tip calculator.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="tip_calculator">
+
+        <div class="calculator-input">
+
+            <div class="row">
+                <div class="col">
+                    <p>Bill Amount ($):</p>
+                </div>
+                <div class="col">
+                    <input type="number" value="100" id="billAmount">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p>Tip Amount (%):</p>
+                </div>
+                <div class="col">
+                    <input type="number" value="15" id="tipAmount">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p>Number of People:</p>
+                </div>
+                <div class="col">
+                    <input type="number" value="1" id="numberOfPeople">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="submit-button">
+            <button id="calculate">Calculate</button>
+        </div>
+
+        <div class="calculator-result">
+
+            <hr>
+
+            <div class="row">
+                <div class="col">
+                    <p>Total Tip ($):</p>
+                </div>
+                <div class="col">
+                    <input type="number" id="totalTip">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p>Total Bill ($):</p>
+                </div>
+                <div class="col">
+                    <input type="number" id="totalBill">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p>Per Person Bill ($):</p>
+                </div>
+                <div class="col">
+                    <input type="number" id="perPerson">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="Tip calculator.js"></script>
+
+</body>
+</html>
